@@ -1,0 +1,99 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* CSS Variables */
+:root{
+  --grey:#d3d3d3;
+  --black:#000000;
+  --blue: #06aed5;
+  --green:#77dd77;
+  --white: #ffffff;
+  --orange:#ff6961;
+
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: var(--black);
+  border-left: 1px solid var(--black);
+  padding: 10px;
+  cursor: pointer;
+}
+
+textarea:hover{
+  background-color: var(--white);
+}
+
+.jumbotron {
+  text-align: left;
+  background-color: var(--blue);
+  color: var(--black);
+  border-radius: 0;
+  border-bottom: 10px solid var(--black);
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.col-md-10{
+  border: solid 1px;
+  background-color: var(--grey);
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: var(--white);
+  color: var(--black);
+  border-top: 1px dashed var(--black);
+}
+
+.past {
+  background-color: var(--grey);
+  color: var(--white);
+}
+
+.present {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.future {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.saveBtn {
+  border-left: 1px solid var(--black);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#clear-task{
+  font-size: 2rem;
+  padding: 10px;
+  background-color: var(--orange);
+  margin: 5rem 30rem;
+}
